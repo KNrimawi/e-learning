@@ -1,4 +1,4 @@
-.course-rating{
+.rating{
     font-size: 1.7rem;
     padding-bottom: 2rem;
 }
@@ -6,13 +6,13 @@
     color:lightgray;
     font-size: 0.8em;
 }
-.course .card-description{
+.course-material .card-description{
     padding-bottom: 0;
 }
-.course{
+.course-material{
     padding-bottom: 1rem;
 }
-.course .card-info{
+.course-material .card-info{
     padding-bottom: 5rem;
 }
 .apply-price{
