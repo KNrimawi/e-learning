@@ -12,6 +12,10 @@
 html{
     font-size: 10px;
 }
+@font-face {
+    font-family: sansation;
+    src: url("Sansation_Bold.ttf");
+}
 body{
     margin:0 0.2% 0.5rem;
     font-family: Arial,sans-serif;
