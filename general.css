@@ -24,7 +24,7 @@ body{
     margin:0 0.2% 0.5rem;
     font-family: Arial,sans-serif;
 }
-h1,h2,h3,h4,h5,h6,ul,form,fieldset{
+h1,h2,h3,h4,h5,h6,ul,form,fieldset,input{
     margin: 0;
     padding: 0;
 }

@@ -7,7 +7,11 @@
     color:white;
 
 }
+
 #above-nav a:hover{
+    color:var(--emerald);
+}
+#above-nav .current-page{
     color:var(--emerald);
 }
 .contact{

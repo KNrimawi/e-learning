@@ -21,13 +21,13 @@
             href="#" class="fa fa-instagram" title="visit us on instagram"></a>
     </div>
     <div class="login-register">
-        <a href="#">Login</a><a href="#">Register</a>
+        <a href="Sign-in.html" class="current-page">Login</a><a href="#">Register</a>
     </div>
 </nav>
 <nav id="bottom-nav" class="bg-light-grey">
 
     <ul class="flex right">
-        <li><a href="main.html" class="current-page">Home</a></li>
+        <li><a href="main.html">Home</a></li>
         <li><a href="AboutUs.html">About US</a></li>
         <li><a href="courses.html">Courses</a></li>
         <li><a href="Blogs.html">Blogs</a></li>
@@ -36,7 +36,7 @@
         <li class="bar">
             <a href="#" class="fa fa-bars"></a>
             <ul class="bg-light-grey" style="z-index: 1">
-                <li><a href="main.html" class="current-page">Home</a></li>
+                <li><a href="main.html">Home</a></li>
                 <li><a href="AboutUs.html">About US</a></li>
                 <li><a href="courses.html">Courses</a></li>
                 <li><a href="Blogs.html">Blogs</a></li>
@@ -51,9 +51,9 @@
   <h1 class="center bg-emerald clr-white">Sign in</h1>
     <form action="" method="post">
         <fieldset class="sign-in-user-info">
-        <input type="text" name="txtEmail" placeholder="Email Address">
-        <input type="password" name="password" placeholder="Password">
-        <input type="checkbox" name="rememberMe" id="remember-me"> <label for="remember-me">Remember me</label>
+        <input type="email" name="email" placeholder="Email Address" required tabindex="1">
+        <input type="password" name="password" placeholder="Password" required tabindex="2">
+        <input type="checkbox" name="rememberMe" id="remember-me"> <label for="remember-me" tabindex="3">Remember me</label>
         </fieldset>
         <fieldset class="sign-in-buttons">
             <button type="submit" class="btn btn-small bg-melanie clr-white">Sign in</button><span>or</span>

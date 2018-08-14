@@ -1,7 +1,8 @@
 .sign-in-container{
     width:40%;
-    min-width: 350px;
+    min-width: 300px;
     margin-top: 8rem;
+    margin-bottom: 8rem;
     border-radius: 1rem;
 }
 .sign-in-container>h1{
@@ -11,10 +12,10 @@
 .sign-in-container>form{
     padding: 2rem;
 }
-.sign-in-container input{
+.sign-in-container input:not([type="checkbox"]){
     margin: 1.5rem 0;
 }
-.sign-in-container input[type="password"],.sign-in-container input[type="text"]{
+.sign-in-container input[type="password"],.sign-in-container input[type="email"]{
     width: 100%;
     padding:1.5rem 4rem;
     color:gray;
@@ -23,7 +24,7 @@
     border:thin solid gray;
 
 }
-.sign-in-container input[type="text"]{
+.sign-in-container input[type="email"]{
     background: url("mail.png") 1rem no-repeat;
 }
 .sign-in-container input[type="password"]{
@@ -33,6 +34,8 @@
 .sign-in-container label{
     color: gray;
     font-size: 1.3rem;
+    vertical-align: top;
+    outline: 0;
 }
 .sign-in-user-info{
     margin-bottom: 8rem;
