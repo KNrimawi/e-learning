@@ -1,0 +1,18 @@
+.pagination-bar-container{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+.pagination-bar{
+    display: inline-block;
+}
+.pagination-bar a{
+    font-size: 1.5rem;
+}
+.pagination-bar>li{
+    padding: 1.5rem 2.5rem;
+    border:thin solid gray;
+
+}
+.pagination-bar>li>a:hover{
+    color: var(--melanie);
+}

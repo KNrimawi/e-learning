@@ -1,0 +1,27 @@
+.filtration-container{
+    width: 97%;
+    margin-top:3rem;
+}
+.filtration-side-navs{
+    flex-basis: 25%;
+}
+
+.filtration-cards{
+    flex-basis: 75%;
+    grid-template: repeat(3,auto)/repeat(2,290px);
+    grid-gap: 5rem 3rem;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 965px) {
+    .filtration-side-navs{
+        display:none ;
+    }
+    .filtration-container{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 650px) {
+    .filtration-cards{
+        grid-template: repeat(6,auto)/290px;
+    }
+}

@@ -1,0 +1,25 @@
+.blog{
+    padding-bottom: 1rem;
+}
+.blog .card-description{
+    padding-bottom: 5rem;
+}
+.blog .card-info{
+    padding-bottom: 8rem;
+}
+.blog .votes-comments-details{
+    padding-bottom: 1rem;
+}
+.blog .details{
+    font-weight: bold;
+}
+.blog .details:hover{
+    text-decoration: underline;
+}
+.blog .number-of-votes,.blog .number-of-comments{
+    font-size: 1.3rem;
+    color:gray;
+}
+.blog .comments{
+    margin-left: 5%;
+}

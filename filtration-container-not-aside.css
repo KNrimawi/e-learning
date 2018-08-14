@@ -1,0 +1,18 @@
+.not-aside-filtration-container{
+    display: none;
+}
+.not-aside-filtration-container,.not-aside-filtration-container select{
+    padding: 1rem;
+    margin-left: 1%;
+}
+.not-aside-filtration-container select{
+    border:thin solid gray;
+    border-radius: 0.5rem;
+    outline: 0;
+}
+@media screen and (max-width: 965px){
+    .not-aside-filtration-container{
+        display: block;
+    }
+}
+

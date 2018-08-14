@@ -1,0 +1,62 @@
+.blog-details{
+    width: 90%;
+    margin-top: 2rem;
+}
+.blog-title{
+    text-transform: capitalize;
+    padding:1rem;
+    padding-left: 2%;
+}
+.blog-info{
+    margin: 0.5rem 0 0.5rem 2%;
+    overflow: auto;
+}
+.blog-info>div,.votes-comments>div{
+    margin-right: 2%;
+}
+.votes-comments{
+    margin-bottom: 1rem;
+}
+.votes-comments>div:first-child{
+    margin-right: 0;
+}
+.blog-info span, .votes-comments span{
+    font-size:1.3rem;
+}
+.blog-container{
+    width: 90%;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+.blog-content{
+    margin-bottom: 0.5rem;
+}
+.votes-comments a:hover>span{
+    color:var(--emerald);
+}
+.comments{
+    border: thin solid var(--dark-grey);
+    padding:1rem;
+}
+.comments>h2{
+    margin-bottom: 1rem;
+}
+.comments>a:hover{
+    text-decoration: underline;
+}
+.comment{
+    padding:0.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.comments>form{
+    margin-top:1rem;
+}
+.comments>form>input{
+    padding: 2rem;
+    border:0;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    width: 100%;
+    outline: 0;
+}

@@ -1,0 +1,21 @@
+.side-nav{
+    min-width: 25rem;
+    margin-bottom: 3rem;
+}
+.side-nav>h2,.side-nav>ul>li{
+    padding:1.5rem;
+}
+.side-nav>ul>li{
+
+    border-width: 0 0 0.1rem 0;
+    border-style: solid;
+    border-color: gray;
+}
+.side-nav>ul>li>a{
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.side-nav>ul>li>a:hover{
+    color:var(--emerald);
+}

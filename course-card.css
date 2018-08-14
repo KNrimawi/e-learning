@@ -1,0 +1,27 @@
+.course-rating{
+    font-size: 1.7rem;
+    padding-bottom: 2rem;
+}
+.number-of-ratings{
+    color:lightgray;
+    font-size: 0.8em;
+}
+.course .card-description{
+    padding-bottom: 0;
+}
+.course{
+    padding-bottom: 1rem;
+}
+.course .card-info{
+    padding-bottom: 5rem;
+}
+.apply-price{
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+.apply-price>.btn{
+  font-weight: normal;
+}
+.apply-price>span{
+    margin-left: 3%;
+}

@@ -1,0 +1,28 @@
+.container{
+    width:95%;
+}
+.container>div{
+
+    border:thin solid black;
+    margin:1rem 0;
+    padding: 1rem;
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.container h1{
+    font-size: 2em;
+}
+@media screen and (max-width: 885px) {
+    #above-nav{
+        justify-content: space-between;
+    }
+    .contact{
+        display: none;
+    }
+    .social-media{
+        flex-basis: 50%;
+        text-align: left;
+    }
+}

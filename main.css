@@ -1,0 +1,112 @@
+header{
+    padding:1.6rem 1.6rem 1.6rem 0;
+    overflow: auto;
+}
+.about-website{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 40%;
+}
+.about-website>h1{
+    font-size: 4.5rem;
+}
+.about-website>p{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+.header-image{
+    width: 23%;
+    min-width: 30rem;
+    margin-left: 5%;
+}
+section,footer{
+    padding:1rem 0 3rem;
+}
+.section-heading{
+    padding-bottom: 0.5rem;
+}
+.break-line{
+    width: 6rem;
+    height:0.5rem;
+    border-radius: 0.5rem;
+}
+.cards{
+    grid-template: auto/repeat(3,29rem);
+    grid-row-gap: 2rem;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.view-more{
+    margin-top:4rem;
+}
+.news-blocks{
+    width: 90%;
+}
+
+.contact-us{
+    position: relative;
+}
+.footer-contact-info{
+    margin-left: 5%;
+}
+
+.contact-call{
+    margin-bottom: 4rem;
+}
+.copyright{
+    position: absolute;
+    right: 1.5rem;
+    bottom:1.5rem;
+    font-size: 1.2rem;
+}
+.news{
+    margin-bottom: 1rem;
+    margin-top:2rem;
+    padding: 1rem;
+    overflow: auto;
+}
+.news>img{
+    max-width: 20rem;
+    margin-right: 1%;
+}
+
+@media screen and (max-width: 1000px) {
+    .cards{
+        grid-template: repeat(2,auto)/repeat(2,29rem);
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .cards{
+        grid-template: repeat(3,auto)/29rem;
+    }
+    .news>img{
+        float: none;
+        display: block;
+        margin:0 auto;
+    }
+    .news>h2{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    header{
+        padding-right: 0;
+    }
+    .header-image{
+        float: none;
+        display: block;
+        margin:0 auto 1rem;
+
+    }
+    .about-website{
+        width: 95%;
+    }
+    .read-more{
+        text-align: center;
+    }
+}
+
+
+
