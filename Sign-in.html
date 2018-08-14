@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="above-nav.css">
+    <link rel="stylesheet" href="bottom-nav.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="sign-in.css">
+</head>
+<body>
+<nav id="above-nav" class="flex bg-dark-grey">
+    <div class="contact">
+        <div class="email left" title="our email"><span class="fa fa-envelope-o icon" ></span> <a href="mailto:e-learning@gmail.com">e-learning@gmail.com</a></div>
+        <div class="phone left" title="our phone"><span class="fa fa-phone icon"></span> <a href="tel:+9722405555">+9722405555</a></div>
+    </div>
+    <div class="social-media">
+        <a href="#" class="fa fa-facebook" title="visit us on facebook"></a><a href="#" class="fa fa-twitter" title="visit us on twitter"></a><a
+            href="#" class="fa fa-instagram" title="visit us on instagram"></a>
+    </div>
+    <div class="login-register">
+        <a href="#">Login</a><a href="#">Register</a>
+    </div>
+</nav>
+<nav id="bottom-nav" class="bg-light-grey">
+
+    <ul class="flex right">
+        <li><a href="main.html" class="current-page">Home</a></li>
+        <li><a href="AboutUs.html">About US</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="Blogs.html">Blogs</a></li>
+        <li><a href="Library.html">Library</a></li>
+        <li><a href="#">Awards</a></li>
+        <li class="bar">
+            <a href="#" class="fa fa-bars"></a>
+            <ul class="bg-light-grey" style="z-index: 1">
+                <li><a href="main.html" class="current-page">Home</a></li>
+                <li><a href="AboutUs.html">About US</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="Blogs.html">Blogs</a></li>
+                <li><a href="Library.html">Library</a></li>
+                <li><a href="#">Awards</a></li>
+            </ul>
+        </li>
+    </ul>
+    <img src="computer%20(2).png" alt="">
+</nav>
+<div class="sign-in-container shadow bx-center">
+  <h1 class="center bg-emerald clr-white">Sign in</h1>
+    <form action="" method="post">
+        <fieldset class="sign-in-user-info">
+        <input type="text" name="txtEmail" placeholder="Email Address">
+        <input type="password" name="password" placeholder="Password">
+        <input type="checkbox" name="rememberMe" id="remember-me"> <label for="remember-me">Remember me</label>
+        </fieldset>
+        <fieldset class="sign-in-buttons">
+            <button type="submit" class="btn btn-small bg-melanie clr-white">Sign in</button><span>or</span>
+            <a href="#" class="btn btn-small clr-white">Sign with Facebook</a>
+        </fieldset>
+    </form>
+</div>
+
+</body>
+</html>

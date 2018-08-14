@@ -1,0 +1,50 @@
+.sign-in-container{
+    width:40%;
+    min-width: 350px;
+    margin-top: 8rem;
+    border-radius: 1rem;
+}
+.sign-in-container>h1{
+    border-radius: 1rem 1rem 0 0;
+    padding: 1rem;
+}
+.sign-in-container>form{
+    padding: 2rem;
+}
+.sign-in-container input{
+    margin: 1.5rem 0;
+}
+.sign-in-container input[type="password"],.sign-in-container input[type="text"]{
+    width: 100%;
+    padding:1.5rem 4rem;
+    color:gray;
+    outline:0;
+    border-radius: 0.5rem;
+    border:thin solid gray;
+
+}
+.sign-in-container input[type="text"]{
+    background: url("mail.png") 1rem no-repeat;
+}
+.sign-in-container input[type="password"]{
+    background: url("password.png") 1rem no-repeat;
+}
+
+.sign-in-container label{
+    color: gray;
+    font-size: 1.3rem;
+}
+.sign-in-user-info{
+    margin-bottom: 8rem;
+}
+.sign-in-container a{
+    background-color: #4267B2;
+    font-size: 1.3rem;
+    margin-left: 2%;
+}
+.sign-in-container a:active{
+    background-color: hsl(220, 46%, 38%);
+}
+.sign-in-container button{
+    margin-right: 2%;
+}
