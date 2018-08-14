@@ -43,6 +43,9 @@ a{
     text-decoration: none;
     color:black;
 }
+cite{
+    font-style: normal;
+}
 .flex{
     display: flex;
 }
