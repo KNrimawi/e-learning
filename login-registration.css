@@ -1,53 +1,65 @@
-.sign-in-container{
+.form-container{
     width:40%;
     min-width: 300px;
     margin-top: 8rem;
     margin-bottom: 8rem;
     border-radius: 1rem;
 }
-.sign-in-container>h1{
+.form-container>h1{
     border-radius: 1rem 1rem 0 0;
     padding: 1rem;
 }
-.sign-in-container>form{
+.form-container>form{
     padding: 2rem;
 }
-.sign-in-container input:not([type="checkbox"]){
+.form-container input:not([type="checkbox"]):not([type="radio"]){
     margin: 1.5rem 0;
-}
-.sign-in-container input[type="password"],.sign-in-container input[type="email"]{
     width: 100%;
     padding:1.5rem 4rem;
     color:gray;
     outline:0;
     border-radius: 0.5rem;
     border:thin solid gray;
-
 }
-.sign-in-container input[type="email"]{
+
+.form-container input[type="email"]{
     background: url("mail.png") 1rem no-repeat;
 }
-.sign-in-container input[type="password"]{
+.form-container input[type="password"]{
     background: url("password.png") 1rem no-repeat;
 }
-
-.sign-in-container label{
+.form-container input[type="text"]{
+    background: url("user.png") 1rem no-repeat;
+}
+.form-container input[name="creditCardNumber"]{
+    background: url("credit-card.png") 1rem no-repeat;
+}
+.form-container input[name="creditCardCvv"]{
+    background: url("cvv.png") 1rem no-repeat;
+}
+.form-container label{
     color: gray;
     font-size: 1.3rem;
     vertical-align: top;
     outline: 0;
 }
-.sign-in-user-info{
+.form-user-info{
     margin-bottom: 8rem;
 }
-.sign-in-container a{
+.form-container a{
     background-color: #4267B2;
     font-size: 1.3rem;
     margin-left: 2%;
 }
-.sign-in-container a:active{
+.form-container a:active{
     background-color: hsl(220, 46%, 38%);
 }
-.sign-in-container button{
+.form-container button{
     margin-right: 2%;
+}
+.sign-up .form-user-info{
+    margin-bottom: 2rem;
+}
+.checkbox{
+    margin-top:1.5rem;
 }
