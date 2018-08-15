@@ -137,3 +137,10 @@ address{
 fieldset{
     border: 0;
 }
+input[type="search"]{
+    width: 100%;
+    border: 0;
+    padding: 2rem 2rem 2rem 4rem;
+    outline: 0;
+    background: url("../images/magnifying-glass.png") 1rem no-repeat;
+}
