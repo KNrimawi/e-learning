@@ -72,6 +72,9 @@ section,footer{
     max-width: 20rem;
     margin-right: 1%;
 }
+.footer-contact-info a:hover{
+    color:var(--emerald);
+}
 
 @media screen and (max-width: 1000px) {
     .cards{

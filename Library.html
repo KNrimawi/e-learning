@@ -1,254 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Library</title>
-    <link rel="stylesheet" href="CSS/general.css">
-    <link rel="stylesheet" href="CSS/above-nav.css">
-    <link rel="stylesheet" href="CSS/bottom-nav.css">
-    <link rel="stylesheet" href="CSS/filtrationContainer.css">
-    <link rel="stylesheet" href="CSS/filtration-container-not-aside.css">
-    <link rel="stylesheet" href="CSS/side-nav.css">
-    <link rel="stylesheet" href="CSS/card.css">
-    <link rel="stylesheet" href="CSS/course-library-card.css">
-    <link rel="stylesheet" href="CSS/pagination-bar.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-</head>
-<body>
-<nav id="above-nav" class="flex bg-dark-grey">
-    <div class="contact">
-        <div class="email left" title="our email"><span class="fa fa-envelope-o icon" ></span> <a href="mailto:e-learning@gmail.com">e-learning@gmail.com</a></div>
-        <div class="phone left" title="our phone"><span class="fa fa-phone icon"></span> <a href="tel:+9722405555">+9722405555</a></div>
-    </div>
-    <div class="social-media">
-        <a href="#" class="fa fa-facebook" title="visit us on facebook"></a><a href="#" class="fa fa-twitter" title="visit us on twitter"></a><a
-            href="#" class="fa fa-instagram" title="visit us on instagram"></a>
-    </div>
-    <div class="login-register">
-        <a href="Sign-in.html">Login</a><a href="Sign-up.html">Register</a>
-    </div>
-</nav>
-<nav id="bottom-nav" class="bg-light-grey">
-    <ul class="flex right">
-        <li><a href="main.html">Home</a></li>
-        <li><a href="AboutUs.html">About US</a></li>
-        <li><a href="courses.html">Courses</a></li>
-        <li><a href="Blogs.html">Blogs</a></li>
-        <li><a href="Library.html" class="current-page">Library</a></li>
-        <li><a href="#">Awards</a></li>
-        <li class=" bar">
-            <a href="#" class="fa fa-bars"></a>
-            <ul class="bg-light-grey">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Library</title>
+        <link rel="stylesheet" href="CSS/general.css">
+        <link rel="stylesheet" href="CSS/above-nav.css">
+        <link rel="stylesheet" href="CSS/bottom-nav.css">
+        <link rel="stylesheet" href="CSS/filtrationContainer.css">
+        <link rel="stylesheet" href="CSS/filtration-container-not-aside.css">
+        <link rel="stylesheet" href="CSS/side-nav.css">
+        <link rel="stylesheet" href="CSS/card.css">
+        <link rel="stylesheet" href="CSS/course-library-card.css">
+        <link rel="stylesheet" href="CSS/pagination-bar.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    </head>
+    <body>
+        <nav id="above-nav" class="flex bg-dark-grey">
+            <div class="contact">
+                <div class="email left" title="our email"><span class="fa fa-envelope-o icon" ></span> <a href="mailto:e-learning@gmail.com">e-learning@gmail.com</a></div>
+                <div class="phone left" title="our phone"><span class="fa fa-phone icon"></span> <a href="tel:+9722405555">+9722405555</a></div>
+            </div>
+            <div class="social-media">
+                <a href="#" class="fa fa-facebook" title="visit us on facebook"></a><a href="#" class="fa fa-twitter" title="visit us on twitter"></a><a
+                    href="#" class="fa fa-instagram" title="visit us on instagram"></a>
+            </div>
+            <div class="login-register">
+                <a href="Sign-in.html">Login</a><a href="Sign-up.html">Register</a>
+            </div>
+        </nav>
+        <nav id="bottom-nav" class="bg-light-grey">
+            <ul class="flex right">
                 <li><a href="main.html">Home</a></li>
                 <li><a href="AboutUs.html">About US</a></li>
                 <li><a href="courses.html">Courses</a></li>
                 <li><a href="Blogs.html">Blogs</a></li>
                 <li><a href="Library.html" class="current-page">Library</a></li>
                 <li><a href="#">Awards</a></li>
+                <li class=" bar">
+                    <a href="#" class="fa fa-bars"></a>
+                    <ul class="bg-light-grey">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="AboutUs.html">About US</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="Blogs.html">Blogs</a></li>
+                        <li><a href="Library.html" class="current-page">Library</a></li>
+                        <li><a href="#">Awards</a></li>
+                    </ul>
+                </li>
             </ul>
-        </li>
-    </ul>
-    <img src="images/computer%20(2).png" alt="">
-</nav>
-<form action="" class="not-aside-filtration-container center">
-    <select name="filterBy" id="filterBy" class="clr-emerald">
-        <option selected disabled>Filter By</option>
-        <option value="Popularity">Popularity</option>
-        <option value="Date">Date</option>
-        <option value="Rating">Rating</option>
-        <option value="Number of pages">Number of pages</option>
-        <option value="Number of Chapters">Number of Chapters</option>
-    </select>
-    <select name="category" id="category"  class="clr-emerald">
-        <option selected disabled>Category</option>
-        <option value="Web Development">Web Dev</option>
-        <option value="Mobile Apps">Mobile Apps</option>
-        <option value="Business">Business</option>
-        <option value="Marketing">Marketing</option>
-        <option value="All Courses">All</option>
-    </select>
-    <select name="level" id="level" class="clr-emerald">
-        <option selected disabled>Type</option>
-        <option value="Book">Book</option>
-        <option value="Article">Article</option>
-        <option value="All">All</option>
-    </select>
-</form>
-<div class="filtration-container flex bx-center">
-    <div class="filtration-side-navs">
-        <aside class="side-nav shadow">
-            <h2 class="clr-white bg-emerald">Filter By</h2>
-            <ul>
-                <li><a href="#" class="clr-dark-grey">popularity</a></li>
-                <li><a href="#" class="clr-emerald">date</a></li>
-                <li><a href="#" class="clr-dark-grey">rating</a></li>
-                <li><a href="#" class="clr-dark-grey">number of pages</a></li>
-                <li><a href="#" class="clr-dark-grey">number of chapters</a></li>
+            <img src="images/computer%20(2).png" alt="">
+        </nav>
+        <form action="" class="not-aside-filtration-container center">
+            <select name="filterBy" id="filterBy" class="clr-emerald">
+                <option disabled>Filter By</option>
+                <option value="Popularity">Popularity</option>
+                <option value="Date" selected>Date</option>
+                <option value="Rating">Rating</option>
+                <option value="Number of pages">Number of pages</option>
+                <option value="Number of Chapters">Number of Chapters</option>
+            </select>
+            <select name="category" id="category"  class="clr-emerald">
+                <option disabled>Category</option>
+                <option value="Web Development">Web Dev</option>
+                <option value="Mobile Apps">Mobile Apps</option>
+                <option value="Business">Business</option>
+                <option value="Marketing">Marketing</option>
+                <option value="All Courses" selected>All</option>
+            </select>
+            <select name="level" id="level" class="clr-emerald">
+                <option disabled>Type</option>
+                <option value="Book">Book</option>
+                <option value="Article">Article</option>
+                <option value="All" selected>All</option>
+            </select>
+        </form>
+        <div class="filtration-container flex bx-center">
+            <div class="filtration-side-navs">
+                <aside class="side-nav shadow">
+                    <h2 class="clr-white bg-emerald">Filter By</h2>
+                    <ul>
+                        <li><a href="#" class="clr-dark-grey">popularity</a></li>
+                        <li><a href="#" class="clr-emerald">date</a></li>
+                        <li><a href="#" class="clr-dark-grey">rating</a></li>
+                        <li><a href="#" class="clr-dark-grey">number of pages</a></li>
+                        <li><a href="#" class="clr-dark-grey">number of chapters</a></li>
+                    </ul>
+                </aside>
+                <aside class="side-nav shadow">
+                    <h2 class="clr-white bg-emerald">Category</h2>
+                    <ul>
+                        <li><a href="#" class="clr-dark-grey">web development</a></li>
+                        <li><a href="#" class="clr-dark-grey">mobile Apps</a></li>
+                        <li><a href="#" class="clr-dark-grey">business</a></li>
+                        <li><a href="#" class="clr-dark-grey">marketing</a></li>
+                        <li><a href="#" class="clr-dark-grey">graphic design</a></li>
+                        <li><a href="#" class="clr-emerald">all</a></li>
+                    </ul>
+                </aside>
+                <aside class="side-nav shadow">
+                    <h2 class="clr-white bg-emerald">Type</h2>
+                    <ul>
+                        <li><a href="#" class="clr-dark-grey">Book</a></li>
+                        <li><a href="#" class="clr-dark-grey">Article</a></li>
+                        <li><a href="#" class="clr-emerald">all</a></li>
+                    </ul>
+                </aside>
+
+            </div>
+            <div class="filtration-cards grid">
+                <div class="course-material card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
+                        <p class="card-description">A brief description of the Material, and what it contains and more.</p>
+                        <div class="rating clr-gold border-bottom-emerald">
+                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
+                            <span class="number-of-ratings" title="number of ratings">(5,020)</span>
+                        </div>
+                        <div class="card-info">
+                            <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
+                            <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
+                            <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="apply-price">
+                            <span class="right clr-emerald" title="Material Price">$99.99</span>
+                            <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course-material card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
+                        <p class="card-description">A brief description of the Material, and what it contains and more.</p>
+                        <div class="rating clr-gold border-bottom-emerald">
+                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
+                            <span class="number-of-ratings" title="number of ratings">(5,020)</span>
+                        </div>
+                        <div class="card-info">
+                            <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
+                            <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
+                            <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="apply-price">
+                            <span class="right clr-emerald" title="Material Price">$99.99</span>
+                            <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course-material card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
+                        <p class="card-description">A brief description of the Material, and what it contains and more.</p>
+                        <div class="rating clr-gold border-bottom-emerald">
+                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
+                            <span class="number-of-ratings" title="number of ratings">(5,020)</span>
+                        </div>
+                        <div class="card-info">
+                            <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
+                            <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
+                            <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="apply-price">
+                            <span class="right clr-emerald" title="Material Price">$99.99</span>
+                            <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course-material card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
+                        <p class="card-description">A brief description of the Material, and what it contains and more.</p>
+                        <div class="rating clr-gold border-bottom-emerald">
+                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
+                            <span class="number-of-ratings" title="number of ratings">(5,020)</span>
+                        </div>
+                        <div class="card-info">
+                            <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
+                            <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
+                            <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="apply-price">
+                            <span class="right clr-emerald" title="Material Price">$99.99</span>
+                            <s class="right clr-dark-grey">$150</s>
+                            <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course-material card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
+                        <p class="card-description">A brief description of the Material, and what it contains and more.</p>
+                        <div class="rating clr-gold border-bottom-emerald">
+                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
+                            <span class="number-of-ratings" title="number of ratings">(5,020)</span>
+                        </div>
+                        <div class="card-info">
+                            <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
+                            <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
+                            <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="apply-price">
+                            <span class="right clr-emerald" title="Material Price">$99.99</span>
+                            <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course-material card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
+                        <p class="card-description">A brief description of the Material, and what it contains and more.</p>
+                        <div class="rating clr-gold border-bottom-emerald">
+                            <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
+                            <span class="number-of-ratings" title="number of ratings">(5,020)</span>
+                        </div>
+                        <div class="card-info">
+                            <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
+                            <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
+                            <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="apply-price">
+                            <span class="right clr-emerald" title="Material Price">$99.99</span>
+                            <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="pagination-bar-container center">
+            <ul class="pagination-bar">
+                <li class="left bg-emerald"><a href="#" class="fa fa-arrow-left clr-white"></a></li>
+                <li class="left bg-light-grey"><a href="#">1</a></li>
+                <li class="left"><a href="#">2</a></li>
+                <li class="left"><a href="#">3</a></li>
+                <li class="left bg-emerald"><a href="#" class="fa fa-arrow-right clr-white"></a></li>
             </ul>
-        </aside>
-        <aside class="side-nav shadow">
-            <h2 class="clr-white bg-emerald">Category</h2>
-            <ul>
-                <li><a href="#" class="clr-dark-grey">web development</a></li>
-                <li><a href="#" class="clr-dark-grey">mobile Apps</a></li>
-                <li><a href="#" class="clr-dark-grey">business</a></li>
-                <li><a href="#" class="clr-dark-grey">marketing</a></li>
-                <li><a href="#" class="clr-dark-grey">graphic design</a></li>
-                <li><a href="#" class="clr-emerald">all</a></li>
-            </ul>
-        </aside>
-        <aside class="side-nav shadow">
-            <h2 class="clr-white bg-emerald">Type</h2>
-            <ul>
-                <li><a href="#" class="clr-dark-grey">Book</a></li>
-                <li><a href="#" class="clr-dark-grey">Article</a></li>
-                <li><a href="#" class="clr-emerald">all</a></li>
-            </ul>
-        </aside>
-
-    </div>
-    <div class="filtration-cards grid">
-        <div class="course-material card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
-                <p class="card-description">A brief description of the Material, and what it contains and more.</p>
-                <div class="rating clr-gold border-bottom-emerald">
-                    <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
-                    <span class="number-of-ratings" title="number of ratings">(5,020)</span>
-                </div>
-                <div class="card-info">
-                    <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
-                    <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
-                    <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
-                </div>
-                <div class="apply-price">
-                    <span class="right clr-emerald" title="Material Price">$99.99</span>
-                    <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
-
-                </div>
-            </div>
-        </div>
-        <div class="course-material card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
-                <p class="card-description">A brief description of the Material, and what it contains and more.</p>
-                <div class="rating clr-gold border-bottom-emerald">
-                    <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
-                    <span class="number-of-ratings" title="number of ratings">(5,020)</span>
-                </div>
-                <div class="card-info">
-                    <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
-                    <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
-                    <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
-                </div>
-                <div class="apply-price">
-                    <span class="right clr-emerald" title="Material Price">$99.99</span>
-                    <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
-
-                </div>
-            </div>
-        </div>
-        <div class="course-material card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
-                <p class="card-description">A brief description of the Material, and what it contains and more.</p>
-                <div class="rating clr-gold border-bottom-emerald">
-                    <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
-                    <span class="number-of-ratings" title="number of ratings">(5,020)</span>
-                </div>
-                <div class="card-info">
-                    <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
-                    <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
-                    <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
-                </div>
-                <div class="apply-price">
-                    <span class="right clr-emerald" title="Material Price">$99.99</span>
-                    <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
-
-                </div>
-            </div>
-        </div>
-        <div class="course-material card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
-                <p class="card-description">A brief description of the Material, and what it contains and more.</p>
-                <div class="rating clr-gold border-bottom-emerald">
-                    <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
-                    <span class="number-of-ratings" title="number of ratings">(5,020)</span>
-                </div>
-                <div class="card-info">
-                    <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
-                    <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
-                    <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
-                </div>
-                <div class="apply-price">
-                    <span class="right clr-emerald" title="Material Price">$99.99</span>
-                    <s class="right clr-dark-grey">$150</s>
-                    <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
-
-                </div>
-            </div>
-        </div>
-        <div class="course-material card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
-                <p class="card-description">A brief description of the Material, and what it contains and more.</p>
-                <div class="rating clr-gold border-bottom-emerald">
-                    <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
-                    <span class="number-of-ratings" title="number of ratings">(5,020)</span>
-                </div>
-                <div class="card-info">
-                    <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
-                    <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
-                    <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
-                </div>
-                <div class="apply-price">
-                    <span class="right clr-emerald" title="Material Price">$99.99</span>
-                    <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
-
-                </div>
-            </div>
-        </div>
-        <div class="course-material card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald"><cite>Material Title</cite></h2>
-                <p class="card-description">A brief description of the Material, and what it contains and more.</p>
-                <div class="rating clr-gold border-bottom-emerald">
-                    <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
-                    <span class="number-of-ratings" title="number of ratings">(5,020)</span>
-                </div>
-                <div class="card-info">
-                    <div title="Material Author"><span class="fa fa-user clr-emerald" ></span> <span>Mohammad Qalalwa</span></div>
-                    <div title="Material Size"><span class="fa fa-file-o clr-emerald"></span> <span>8 chapters, 560 page</span></div>
-                    <div title="Material date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
-                </div>
-                <div class="apply-price">
-                    <span class="right clr-emerald" title="Material Price">$99.99</span>
-                    <a href="" class="btn btn-small bg-melanie clr-white">Get</a>
-
-                </div>
-            </div>
         </div>
 
-    </div>
-</div>
-<div class="pagination-bar-container center">
-    <ul class="pagination-bar">
-        <li class="left bg-emerald"><a href="#" class="fa fa-arrow-left clr-white"></a></li>
-        <li class="left bg-light-grey"><a href="#">1</a></li>
-        <li class="left"><a href="#">2</a></li>
-        <li class="left"><a href="#">3</a></li>
-        <li class="left bg-emerald"><a href="#" class="fa fa-arrow-right clr-white"></a></li>
-    </ul>
-</div>
-
-</body>
+    </body>
 </html>

@@ -1,204 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blogs</title>
-    <link rel="stylesheet" href="CSS/general.css">
-    <link rel="stylesheet" href="CSS/general.css">
-    <link rel="stylesheet" href="CSS/above-nav.css">
-    <link rel="stylesheet" href="CSS/bottom-nav.css">
-    <link rel="stylesheet" href="CSS/filtrationContainer.css">
-    <link rel="stylesheet" href="CSS/filtration-container-not-aside.css">
-    <link rel="stylesheet" href="CSS/side-nav.css">
-    <link rel="stylesheet" href="CSS/card.css">
-    <link rel="stylesheet" href="CSS/blog-card.css">
-    <link rel="stylesheet" href="CSS/pagination-bar.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-<nav id="above-nav" class="flex bg-dark-grey">
-    <div class="contact">
-        <div class="email left" title="our email"><span class="fa fa-envelope-o icon" ></span> <a href="mailto:e-learning@gmail.com">e-learning@gmail.com</a></div>
-        <div class="phone left" title="our phone"><span class="fa fa-phone icon"></span> <a href="tel:+9722405555">+9722405555</a></div>
-    </div>
-    <div class="social-media">
-        <a href="#" class="fa fa-facebook" title="visit us on facebook"></a><a href="#" class="fa fa-twitter" title="visit us on twitter"></a><a
-            href="#" class="fa fa-instagram" title="visit us on instagram"></a>
-    </div>
-    <div class="login-register">
-        <a href="Sign-in.html">Login</a><a href="Sign-up.html">Register</a>
-    </div>
-</nav>
-<nav id="bottom-nav" class="bg-light-grey">
-    <ul class="flex right">
-        <li><a href="main.html">Home</a></li>
-        <li><a href="AboutUs.html">About US</a></li>
-        <li><a href="courses.html">Courses</a></li>
-        <li><a href="Blogs.html" class="current-page">Blogs</a></li>
-        <li><a href="Library.html">Library</a></li>
-        <li><a href="#">Awards</a></li>
-        <li class=" bar">
-            <a href="#" class="fa fa-bars"></a>
-            <ul class="bg-light-grey">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blogs</title>
+        <link rel="stylesheet" href="CSS/general.css">
+        <link rel="stylesheet" href="CSS/general.css">
+        <link rel="stylesheet" href="CSS/above-nav.css">
+        <link rel="stylesheet" href="CSS/bottom-nav.css">
+        <link rel="stylesheet" href="CSS/filtrationContainer.css">
+        <link rel="stylesheet" href="CSS/filtration-container-not-aside.css">
+        <link rel="stylesheet" href="CSS/side-nav.css">
+        <link rel="stylesheet" href="CSS/card.css">
+        <link rel="stylesheet" href="CSS/blog-card.css">
+        <link rel="stylesheet" href="CSS/pagination-bar.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav id="above-nav" class="flex bg-dark-grey">
+            <div class="contact">
+                <div class="email left" title="our email"><span class="fa fa-envelope-o icon" ></span> <a href="mailto:e-learning@gmail.com">e-learning@gmail.com</a></div>
+                <div class="phone left" title="our phone"><span class="fa fa-phone icon"></span> <a href="tel:+9722405555">+9722405555</a></div>
+            </div>
+            <div class="social-media">
+                <a href="#" class="fa fa-facebook" title="visit us on facebook"></a><a href="#" class="fa fa-twitter" title="visit us on twitter"></a><a
+                    href="#" class="fa fa-instagram" title="visit us on instagram"></a>
+            </div>
+            <div class="login-register">
+                <a href="Sign-in.html">Login</a><a href="Sign-up.html">Register</a>
+            </div>
+        </nav>
+        <nav id="bottom-nav" class="bg-light-grey">
+            <ul class="flex right">
                 <li><a href="main.html">Home</a></li>
                 <li><a href="AboutUs.html">About US</a></li>
-                <li><a href="courses.html" class="current-page">Courses</a></li>
-                <li><a href="Blogs.html">Blogs</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="Blogs.html" class="current-page">Blogs</a></li>
                 <li><a href="Library.html">Library</a></li>
                 <li><a href="#">Awards</a></li>
+                <li class=" bar">
+                    <a href="#" class="fa fa-bars"></a>
+                    <ul class="bg-light-grey">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="AboutUs.html">About US</a></li>
+                        <li><a href="courses.html" class="current-page">Courses</a></li>
+                        <li><a href="Blogs.html">Blogs</a></li>
+                        <li><a href="Library.html">Library</a></li>
+                        <li><a href="#">Awards</a></li>
+                    </ul>
+                </li>
             </ul>
-        </li>
-    </ul>
-    <img src="images/computer%20(2).png" alt="">
-</nav>
-<form action="" class="not-aside-filtration-container center">
-    <select name="filterBy" id="filterBy" label="asas" class="clr-emerald">
-        <option selected disabled>Filter By</option>
-        <option value="Number of Votes">Number of Votes</option>
-        <option value="Date">Date</option>
-        <option value="Number of Comments">Number of Comments</option>
-    </select>
-    <select name="category" id="category" label="asas" class="clr-emerald">
-        <option selected disabled>Category</option>
-        <option value="Web Development">Web Dev</option>
-        <option value="Mobile Apps">Mobile Apps</option>
-        <option value="Business">Business</option>
-        <option value="Marketing">Marketing</option>
-        <option value="All Courses">All</option>
-    </select>
-</form>
-<div class="filtration-container flex bx-center">
-    <div class="filtration-side-navs">
-        <aside class="side-nav shadow">
-            <h2 class="clr-white bg-emerald">Filter By</h2>
-            <ul>
-                <li><a href="#" class="clr-dark-grey">number of Votes</a></li>
-                <li><a href="#" class="clr-emerald">date</a></li>
-                <li><a href="#" class="clr-dark-grey">number of Comments</a></li>
-            </ul>
-        </aside>
-        <aside class="side-nav shadow">
-            <h2 class="clr-white bg-emerald">Category</h2>
-            <ul>
-                <li><a href="#" class="clr-dark-grey">web development</a></li>
-                <li><a href="#" class="clr-dark-grey">mobile Apps</a></li>
-                <li><a href="#" class="clr-dark-grey">business</a></li>
-                <li><a href="#" class="clr-dark-grey">marketing</a></li>
-                <li><a href="#" class="clr-dark-grey">graphic design</a></li>
-                <li><a href="#" class="clr-emerald">all courses</a></li>
-            </ul>
-        </aside>
+            <img src="images/computer%20(2).png" alt="">
+        </nav>
+        <form action="" class="not-aside-filtration-container center">
+            <select name="filterBy" id="filterBy" label="asas" class="clr-emerald">
+                <option disabled>Filter By</option>
+                <option value="Number of Votes">Number of Votes</option>
+                <option value="Date" selected>Date</option>
+                <option value="Number of Comments">Number of Comments</option>
+            </select>
+            <select name="category" id="category" label="asas" class="clr-emerald">
+                <option disabled>Category</option>
+                <option value="Web Development">Web Dev</option>
+                <option value="Mobile Apps">Mobile Apps</option>
+                <option value="Business">Business</option>
+                <option value="Marketing">Marketing</option>
+                <option value="All Courses" selected>All</option>
+            </select>
+        </form>
+        <div class="filtration-container flex bx-center">
+            <div class="filtration-side-navs">
+                <aside class="side-nav shadow">
+                    <h2 class="clr-white bg-emerald">Filter By</h2>
+                    <ul>
+                        <li><a href="#" class="clr-dark-grey">number of Votes</a></li>
+                        <li><a href="#" class="clr-emerald">date</a></li>
+                        <li><a href="#" class="clr-dark-grey">number of Comments</a></li>
+                    </ul>
+                </aside>
+                <aside class="side-nav shadow">
+                    <h2 class="clr-white bg-emerald">Category</h2>
+                    <ul>
+                        <li><a href="#" class="clr-dark-grey">web development</a></li>
+                        <li><a href="#" class="clr-dark-grey">mobile Apps</a></li>
+                        <li><a href="#" class="clr-dark-grey">business</a></li>
+                        <li><a href="#" class="clr-dark-grey">marketing</a></li>
+                        <li><a href="#" class="clr-dark-grey">graphic design</a></li>
+                        <li><a href="#" class="clr-emerald">all courses</a></li>
+                    </ul>
+                </aside>
 
-    </div>
-    <div class="filtration-cards grid">
-        <div class="blog card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
-                <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
-                <div class="card-info">
-                    <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
-                    <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
-                </div>
-                <div class="votes-comments-details">
-                    <a href="blog-details.html" class="details right clr-emerald">Details</a>
-                    <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
-                    <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
-                </div>
             </div>
-        </div>
-        <div class="blog card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
-                <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
-                <div class="card-info">
-                    <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
-                    <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+            <div class="filtration-cards grid">
+                <div class="blog card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
+                        <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
+                        <div class="card-info">
+                            <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
+                            <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="votes-comments-details">
+                            <a href="blog-details.html" class="details right clr-emerald">Details</a>
+                            <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
+                            <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="votes-comments-details">
-                    <a href="blog-details.html" class="details right clr-emerald">Details</a>
-                    <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
-                    <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
+                <div class="blog card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
+                        <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
+                        <div class="card-info">
+                            <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
+                            <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="votes-comments-details">
+                            <a href="blog-details.html" class="details right clr-emerald">Details</a>
+                            <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
+                            <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="blog card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
-                <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
-                <div class="card-info">
-                    <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
-                    <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                <div class="blog card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
+                        <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
+                        <div class="card-info">
+                            <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
+                            <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="votes-comments-details">
+                            <a href="blog-details.html" class="details right clr-emerald">Details</a>
+                            <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
+                            <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="votes-comments-details">
-                    <a href="blog-details.html" class="details right clr-emerald">Details</a>
-                    <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
-                    <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
+                <div class="blog card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
+                        <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
+                        <div class="card-info">
+                            <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
+                            <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="votes-comments-details">
+                            <a href="blog-details.html" class="details right clr-emerald">Details</a>
+                            <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
+                            <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="blog card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
-                <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
-                <div class="card-info">
-                    <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
-                    <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                <div class="blog card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
+                        <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
+                        <div class="card-info">
+                            <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
+                            <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="votes-comments-details">
+                            <a href="blog-details.html" class="details right clr-emerald">Details</a>
+                            <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
+                            <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="votes-comments-details">
-                    <a href="blog-details.html" class="details right clr-emerald">Details</a>
-                    <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
-                    <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
+                <div class="blog card bg-white shadow">
+                    <div class="card-content">
+                        <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
+                        <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
+                        <div class="card-info">
+                            <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
+                            <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
+                            <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
+                        </div>
+                        <div class="votes-comments-details">
+                            <a href="blog-details.html" class="details right clr-emerald">Details</a>
+                            <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
+                            <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="blog card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
-                <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
-                <div class="card-info">
-                    <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
-                    <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
-                </div>
-                <div class="votes-comments-details">
-                    <a href="blog-details.html" class="details right clr-emerald">Details</a>
-                    <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
-                    <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
-                </div>
-            </div>
-        </div>
-        <div class="blog card bg-white shadow">
-            <div class="card-content">
-                <h2 class="center clr-dark-grey border-bottom-emerald">Blog Title</h2>
-                <p class="card-description border-bottom-emerald">A brief description of what the Blog is about.</p>
-                <div class="card-info">
-                    <div title="Blog Author"><span class="fa fa-user clr-emerald" ></span> <span>By: Author</span></div>
-                    <div title="Blog date added"><span class="fa fa-calendar clr-emerald"></span> <span>7th - August - 2018</span></div>
-                    <div title="Category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
-                </div>
-                <div class="votes-comments-details">
-                    <a href="blog-details.html" class="details right clr-emerald">Details</a>
-                    <span  class="fa fa-arrow-up clr-gold" title="number of votes"></span> <span class="number-of-votes" title="number of votes">220</span>
-                    <span  class="comments fa fa-comment clr-gold" title="number of comments"></span> <span class="number-of-comments" title="number of comments">220</span>
-                </div>
-            </div>
-        </div>
 
-    </div>
-</div>
-<div class="pagination-bar-container center">
-    <ul class="pagination-bar">
-        <li class="left bg-emerald"><a href="#" class="fa fa-arrow-left clr-white"></a></li>
-        <li class="left bg-light-grey"><a href="#">1</a></li>
-        <li class="left"><a href="#">2</a></li>
-        <li class="left"><a href="#">3</a></li>
-        <li class="left bg-emerald"><a href="#" class="fa fa-arrow-right clr-white"></a></li>
-    </ul>
-</div>
-</body>
+            </div>
+        </div>
+        <div class="pagination-bar-container center">
+            <ul class="pagination-bar">
+                <li class="left bg-emerald"><a href="#" class="fa fa-arrow-left clr-white"></a></li>
+                <li class="left bg-light-grey"><a href="#">1</a></li>
+                <li class="left"><a href="#">2</a></li>
+                <li class="left"><a href="#">3</a></li>
+                <li class="left bg-emerald"><a href="#" class="fa fa-arrow-right clr-white"></a></li>
+            </ul>
+        </div>
+    </body>
 </html>
