@@ -23,19 +23,19 @@
 }
 
 .form-container input[type="email"]{
-    background: url("mail.png") 1rem no-repeat;
+    background: url("../images/mail.png") 1rem no-repeat;
 }
 .form-container input[type="password"]{
-    background: url("password.png") 1rem no-repeat;
+    background: url("../images/password.png") 1rem no-repeat;
 }
 .form-container input[type="text"]{
-    background: url("user.png") 1rem no-repeat;
+    background: url("../images/user.png") 1rem no-repeat;
 }
 .form-container input[name="creditCardNumber"]{
-    background: url("credit-card.png") 1rem no-repeat;
+    background: url("../images/credit-card.png") 1rem no-repeat;
 }
 .form-container input[name="creditCardCvv"]{
-    background: url("cvv.png") 1rem no-repeat;
+    background: url("../images/cvv.png") 1rem no-repeat;
 }
 .form-container label{
     color: gray;

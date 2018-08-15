@@ -14,12 +14,9 @@ html{
 }
 @font-face {
     font-family: sansation;
-    src: url("Sansation_Bold.ttf");
+    src: url("../fonts/Sansation_Bold.ttf");
 }
-@font-face {
-    font-family: FontAwesome;
-    src: url("fontawesome-webfont.ttf");
-}
+
 body{
     margin:0 0.2% 0.5rem;
     font-family: Arial,sans-serif;
