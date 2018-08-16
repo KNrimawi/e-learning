@@ -17,5 +17,5 @@
     text-transform: capitalize;
 }
 .side-nav>ul>li>a:hover{
-    color:var(--emerald);
+    color:var(--emerald)!important;
 }

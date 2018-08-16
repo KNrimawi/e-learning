@@ -9,17 +9,14 @@
 #bottom-nav>ul>li{
     font-size: 1.6rem;
     padding:1em;
-    color:black;
 }
-#bottom-nav>ul>li>a{
-    color:black;
-}
+
 #bottom-nav>img{
     position: absolute;
     top:20%;
     left: 5%;
 }
-#bottom-nav>ul .current-page,#bottom-nav>ul>li>a:hover{
+#bottom-nav>ul>li>a:hover{
     color:var(--emerald);
 }
 .bar{

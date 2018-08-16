@@ -14,5 +14,5 @@
 
 }
 .pagination-bar>li>a:hover{
-    color: var(--melanie);
+    color: var(--melanie)!important;
 }

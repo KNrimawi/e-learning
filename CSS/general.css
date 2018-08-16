@@ -75,37 +75,40 @@ cite{
     text-align: justify;
 }
 .bg-light-grey{
-    background-color: var(--light-grey);
+    background-color: var(--light-grey)!important;
 }
 .bg-dark-grey{
-    background-color: var(--dark-grey);
+    background-color: var(--dark-grey)!important;
 }
 .bg-emerald{
-    background-color: var(--emerald);
+    background-color: var(--emerald)!important;
 }
 .bg-melanie{
-    background-color: var(--melanie);
+    background-color: var(--melanie)!important;
 }
 .bg-white{
-    background-color: white;
+    background-color: white!important;
 }
 .clr-white{
-    color:white;
+    color:white!important;
 }
 .clr-dark-grey{
-    color:var(--dark-grey);
+    color:var(--dark-grey)!important;
 }
 .clr-emerald{
-    color:var(--emerald);
+    color:var(--emerald)!important;
 }
 .clr-melanie{
-    color:var(--melanie);
+    color:var(--melanie)!important;
 }
 .clr-gold{
-    color:var(--gold);
+    color:var(--gold)!important;
 }
 .clr-light-gray{
-    color:var(--light-grey);
+    color:var(--light-grey)!important;
+}
+.current-page{
+    color:var(--emerald)!important;
 }
 .border-bottom-emerald{
     border-bottom: thin solid var(--emerald);
@@ -124,7 +127,7 @@ cite{
     font-size: 1.3rem;
 }
 .btn:active{
-    background-color: var(--melanie-active);
+    background-color: var(--melanie-active)!important;
 }
 
 .shadow{

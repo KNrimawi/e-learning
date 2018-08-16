@@ -60,7 +60,7 @@ section,footer{
     position: absolute;
     right: 1.5rem;
     bottom:1.5rem;
-    font-size: 1.2rem;
+    font-size: 7pt;
 }
 .news{
     margin-bottom: 1rem;
@@ -73,7 +73,7 @@ section,footer{
     margin-right: 1%;
 }
 .footer-contact-info a:hover{
-    color:var(--emerald);
+    color:var(--emerald)!important;
 }
 
 @media screen and (max-width: 1000px) {

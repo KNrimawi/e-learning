@@ -1,6 +1,6 @@
 .form-container{
     width:40%;
-    min-width: 300px;
+    min-width: 32rem;
     margin-top: 8rem;
     margin-bottom: 8rem;
     border-radius: 1rem;
@@ -52,7 +52,7 @@
     margin-left: 2%;
 }
 .form-container a:active{
-    background-color: hsl(220, 46%, 38%);
+    background-color: hsl(220, 46%, 38%)!important;
 }
 .form-container button{
     margin-right: 2%;

@@ -3,22 +3,15 @@
     height:3.3rem;
 
 }
-#above-nav a{
-    color:white;
-
-}
 
 #above-nav a:hover{
-    color:var(--emerald);
+    color:var(--emerald)!important;
 }
-#above-nav .current-page{
-    color:var(--emerald);
-}
+
 .contact{
     flex-basis: 35%;
     padding: 0.5rem 0 0.3rem;
     color:white;
-
 }
 .email{
     margin-right: 10%;
