@@ -1,0 +1,32 @@
+.teacher-card{
+    width:100%;
+    padding: 1rem;
+}
+.teacher-card>h2{
+    margin: 1rem 0;
+}
+.teacher-card>p{
+    padding: 0.8rem;
+}
+.img-thumbnail{
+    width:15rem;
+    height:15rem;
+    position: relative;
+    border: 3px solid var(--emerald);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-thumbnail>img{
+    height: 100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.teacher-card .card-info *{
+    font-size: 1.3rem;
+    padding: 0.25rem 0;
+}
+.teacher-card .card-info>*{
+   margin: 0.25rem 0;
+}
