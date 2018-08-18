@@ -32,7 +32,7 @@
     margin-bottom: 0.5rem;
 }
 .votes-comments a:hover>span{
-    color:var(--emerald);
+    color:var(--emerald)!important;
 }
 .comments{
     border: thin solid var(--dark-grey);
