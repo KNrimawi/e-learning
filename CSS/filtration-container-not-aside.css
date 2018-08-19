@@ -10,7 +10,7 @@
     border-radius: 0.5rem;
     outline: 0;
 }
-@media screen and (max-width: 965px){
+@media screen and (max-width: 930px){
     .not-aside-filtration-container{
         display: block;
     }

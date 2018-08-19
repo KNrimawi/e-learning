@@ -34,7 +34,7 @@ section,footer{
     border-radius: 0.5rem;
 }
 .cards{
-    grid-template: auto/repeat(3,29rem);
+    grid-template: auto/repeat(3,31rem);
     grid-row-gap: 2rem;
     justify-content: space-evenly;
     margin-top: 2rem;

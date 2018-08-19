@@ -8,10 +8,17 @@
     color:var(--emerald)!important;
 }
 
-.contact{
+.search{
     flex-basis: 35%;
     padding: 0.5rem 0 0.3rem;
     color:white;
+}
+.search input{
+    padding: 0.5rem 0.5rem 0.5rem 3rem;
+    width: 30%;
+    min-width: 20rem;
+    background: hsla(0,100%,100%,0.8) url("../images/search.png") 1rem no-repeat;
+
 }
 .email{
     margin-right: 10%;
@@ -25,13 +32,7 @@
     padding: 0.8rem 1rem 0 1rem;
     font-size: 1.4rem;
 }
-.contact,.contact a,.login-register{
-    font-size: 1.3rem;
-}
 
-.contact .icon{
-    font-size: 2.2rem;
-}
 .social-media{
     flex-basis: 25%;
     text-align: center;
@@ -54,13 +55,15 @@
 @media screen and (max-width: 885px) {
     #above-nav{
         justify-content: space-between;
+
     }
-    .contact{
-        display: none;
-    }
+
     .social-media{
-        flex-basis: 50%;
-        text-align: left;
+        display: none;
+
+    }
+    .search{
+        margin-left: 1.5%;
     }
     .login-register{
         flex-basis: 50%;
