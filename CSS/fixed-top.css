@@ -1,0 +1,17 @@
+.fixed-top{
+    display: inline-block;
+    width:5rem;
+    color: var(--dark-grey);
+    padding: 1rem;
+    text-align: center;
+    right:1rem;
+    bottom:3.5rem;
+    border-radius: 10%;
+    background-color: hsla(0,0%,80%,0.5);
+    box-shadow: 0px 0px 2px gray;
+    z-index: 99;
+    font-size: 3.2rem;
+}
+.fixed-top:active{
+    background-color: hsla(0,0%,50%,0.7);
+}
