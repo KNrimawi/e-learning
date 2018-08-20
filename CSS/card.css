@@ -1,7 +1,10 @@
 .card{
     width: 100%;
-    padding: 1rem 1rem 14rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
 
+}
+.card-content{
+    position: relative;
 }
 .card-content>h2{
     padding-bottom: 1.5rem;
@@ -11,14 +14,50 @@
     padding-bottom: 5rem;
     line-height: 2.5rem;
 }
+.card-content .img{
+    width:6.7rem;
+    height:6.7rem;
+    position: absolute;
+    top:-1rem;
+    transform: translateY(-39%);
+    border-radius: 50%;
+    border: thin solid var(--emerald);
+    overflow: hidden;
+
+}
+.card-content .img>img{
+    position: absolute;
+    height: 100%;
+    left:50%;
+    transform: translateX(-50%);
+}
+.event .card-content .img{
+    border: 0;
+    height: 5rem;
+    width: 5rem;
+
+}
 .card-info>div>span,.card-info>div>address{
     font-size: 1.3rem;
 }
 .card-info *{
     padding:0.25rem 0;
+
 }
 .card-info>*{
     margin-top: 0.5rem;
+}
+.card .google-map{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    height: 15rem;
+    text-align: center;
+    background-color: beige;
+    border: thin solid gray;
+    border-radius: 0.5rem;
+}
+.google-map>iframe{
+
 }
 
 

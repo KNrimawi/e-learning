@@ -19,16 +19,11 @@
     <body>
         <nav id="above-nav" class="flex bg-dark-grey">
             <div class="search">
-                <!--<div class="email left" title="our email"><span class="fa fa-envelope-o icon" ></span> <a href="mailto:e-learning@gmail.com" class="clr-white">e-learning@gmail.com</a></div>
-                <div class="phone left" title="our phone"><span class="fa fa-phone icon"></span> <a href="tel:+9722405555" class="clr-white">+9722405555</a></div>-->
                 <form action="" method="post">
-                <input type="search" placeholder="Search ...">
+                    <input type="search" placeholder="Search ...">
                 </form>
             </div>
-            <div class="social-media">
-                <a href="#" class="fa fa-facebook clr-white" title="visit us on facebook"></a><a href="#" class="fa fa-twitter clr-white" title="visit us on twitter"></a><a
-                    href="#" class="fa fa-instagram clr-white" title="visit us on instagram"></a>
-            </div>
+
             <div class="login-register">
                 <a href="Sign-in.html" class="clr-white">Login</a><a href="Sign-up.html" class="clr-white">Register</a>
             </div>
@@ -67,11 +62,14 @@
             </div>
         </header>
         <section class="courses bg-light-grey">
-            <h1 class="center clr-dark-grey section-heading">Courses</h1>
+            <h1 class="center clr-dark-grey section-heading">Trending Courses</h1>
             <div class="break-line bg-melanie bx-center"></div>
             <div class="cards grid">
                 <div class="course-material card bg-white shadow">
                     <div class="card-content">
+                        <div class="img">
+                            <img src="images/js.png" alt="">
+                        </div>
                         <h2 class="center clr-dark-grey border-bottom-emerald">JavaScript</h2>
                         <p class="card-description">A brief description of the course, and what it contains and more.</p>
                         <div class="rating clr-gold border-bottom-emerald">
@@ -85,7 +83,8 @@
                             <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
                         </div>
                         <div class="apply-price">
-                             <span class="right clr-emerald" title="course price">$99.99</span>
+                            <span class="right clr-emerald" title="course price">$99.99</span>
+                            <s class="right clr-dark-grey">$150</s>
                             <a href="" class="btn btn-small bg-melanie clr-white">Apply</a>
 
                         </div>
@@ -94,7 +93,10 @@
 
                 <div class="course-material card bg-white shadow">
                     <div class="card-content">
-                        <h2 class="center clr-dark-grey border-bottom-emerald">JavaScript</h2>
+                        <div class="img">
+                            <img src="images/Photoshop.jpg" alt="">
+                        </div>
+                        <h2 class="center clr-dark-grey border-bottom-emerald">Photoshop</h2>
                         <p class="card-description">A brief description of the course, and what it contains and more.</p>
                         <div class="rating clr-gold border-bottom-emerald">
                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
@@ -107,7 +109,7 @@
                             <div title="category"><span class="fa fa-list-alt clr-emerald"></span> <span>Category</span></div>
                         </div>
                         <div class="apply-price">
-                            <span class="right clr-emerald" title="course price">$99.99</span><s class="right clr-dark-grey">$150</s>
+                            <span class="right clr-emerald" title="course price">$99.99</span>
                             <a href="" class="btn btn-small bg-melanie clr-white">Apply</a>
 
                         </div>
@@ -115,7 +117,10 @@
                 </div>
                 <div class="course-material card bg-white shadow">
                     <div class="card-content">
-                        <h2 class="center clr-dark-grey border-bottom-emerald">JavaScript</h2>
+                        <div class="img">
+                            <img src="images/ccna.jpg" alt="">
+                        </div>
+                        <h2 class="center clr-dark-grey border-bottom-emerald">CCNA</h2>
                         <p class="card-description">A brief description of the course, and what it contains and more.</p>
                         <div class="rating clr-gold border-bottom-emerald">
                             <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-half-full"></span>
@@ -187,33 +192,57 @@
             <h1 class="center clr-dark-grey section-heading">Upcoming Events</h1>
             <div class="break-line bg-melanie bx-center"></div>
             <div class=" cards grid">
-                <div class="card bg-white shadow">
+                <div class="event card bg-white shadow">
                     <div class="card-content">
-                        <h2 class="center clr-dark-grey border-bottom-emerald">Event Title</h2>
-                        <p class="border-bottom-emerald card-description">A brief description of the event, and what will happen in it and more.</p>
-                        <div class="card-info">
-                            <div title="event date"><span class="fa fa-calendar clr-emerald"></span> <span>Tuesday, 15th-August, 3:00 pm</span></div>
-                            <div title="event location"><span class="fa fa-location-arrow clr-emerald"></span> <address>Ramallah, Al-bireh, Experts training center</address></div>
+                        <div class="img">
+                            <img src="images/event.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h2 class="center clr-dark-grey border-bottom-emerald">Event Title</h2>
+                            <p class="border-bottom-emerald card-description">A brief description of the event, and what will happen in it and more.</p>
+                            <div class="card-info">
+                                <div title="event date"><span class="fa fa-calendar clr-emerald"></span> <span>Tuesday, 15th-August, 3:00 pm</span></div>
+                                <div title="event location"><span class="fa fa-location-arrow clr-emerald"></span> <address>Ramallah, Al-bireh, Experts training center</address></div>
+                            </div>
+                        </div>
+                        <div class="google-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.3413530955827!2d35.211417315023546!3d31.924488534269873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d2a9d47d7f00d%3A0x11b1ae54e4d52662!2z2KfZhNiq2LXZgdmK2Kkg2KfZhNi52KfZhNmF2YrYqQ!5e0!3m2!1sen!2s!4v1534763703910" width="100%" height="100%" frameborder="0" ></iframe>
                         </div>
                     </div>
                 </div>
-                <div class="card bg-white shadow">
+                <div class="event card bg-white shadow">
                     <div class="card-content">
-                        <h2 class="center clr-dark-grey border-bottom-emerald">Event Title</h2>
-                        <p class="border-bottom-emerald card-description">A brief description of the event, and what will happen in it and more.</p>
-                        <div class="card-info">
-                            <div title="event date"><span class="fa fa-calendar clr-emerald"></span> <span>Tuesday, 15th-August, 3:00 pm</span></div>
-                            <div title="event location"><span class="fa fa-location-arrow clr-emerald"></span> <address>Ramallah, Al-bireh, Experts training center</address></div>
+                        <div class="img">
+                            <img src="images/event.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h2 class="center clr-dark-grey border-bottom-emerald">Event Title</h2>
+                            <p class="border-bottom-emerald card-description">A brief description of the event, and what will happen in it and more.</p>
+                            <div class="card-info">
+                                <div title="event date"><span class="fa fa-calendar clr-emerald"></span> <span>Tuesday, 15th-August, 3:00 pm</span></div>
+                                <div title="event location"><span class="fa fa-location-arrow clr-emerald"></span> <address>Ramallah, Al-bireh, Experts training center</address></div>
+                            </div>
+                        </div>
+                        <div class="google-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.3413530955827!2d35.211417315023546!3d31.924488534269873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d2a9d47d7f00d%3A0x11b1ae54e4d52662!2z2KfZhNiq2LXZgdmK2Kkg2KfZhNi52KfZhNmF2YrYqQ!5e0!3m2!1sen!2s!4v1534763703910" width="100%" height="100%" frameborder="0" ></iframe>
                         </div>
                     </div>
                 </div>
-                <div class="card bg-white shadow">
+                <div class="event card bg-white shadow">
                     <div class="card-content">
-                        <h2 class="center clr-dark-grey border-bottom-emerald">Event Title</h2>
-                        <p class="border-bottom-emerald card-description">A brief description of the event, and what will happen in it and more.</p>
-                        <div class="card-info">
-                            <div title="event date"><span class="fa fa-calendar clr-emerald"></span> <span>Tuesday, 15th-August, 3:00 pm</span></div>
-                            <div title="event location"><span class="fa fa-location-arrow clr-emerald"></span> <address>Ramallah, Al-bireh, Experts training center</address></div>
+                        <div class="img">
+                            <img src="images/event.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h2 class="center clr-dark-grey border-bottom-emerald">Event Title</h2>
+                            <p class="border-bottom-emerald card-description">A brief description of the event, and what will happen in it and more.</p>
+                            <div class="card-info">
+                                <div title="event date"><span class="fa fa-calendar clr-emerald"></span> <span>Tuesday, 15th-August, 3:00 pm</span></div>
+                                <div title="event location"><span class="fa fa-location-arrow clr-emerald"></span> <address>Ramallah, Al-bireh, Experts training center</address></div>
+                            </div>
+                        </div>
+                        <div class="google-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.3413530955827!2d35.211417315023546!3d31.924488534269873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d2a9d47d7f00d%3A0x11b1ae54e4d52662!2z2KfZhNiq2LXZgdmK2Kkg2KfZhNi52KfZhNmF2YrYqQ!5e0!3m2!1sen!2s!4v1534763703910" width="100%" height="100%" frameborder="0" ></iframe>
                         </div>
                     </div>
                 </div>
@@ -253,17 +282,31 @@
             </div>
         </section>
         <footer class="contact-us bg-dark-grey clr-white">
-            <h1 class="center clr-white section-heading">Contact Us</h1>
-            <div class="break-line bg-melanie bx-center"></div>
-            <div class="footer-contact-info">
-            <div class="contact-call">
-                <p>Give us a call:</p>
-                <span class="fa fa-phone"></span> <a href="tel:+9722405555" title="our phone" class="clr-white">+9722405555</a>
-            </div>
-            <div class="contact-mail">
-                <p>Mail us:</p>
-                <span class="fa fa-envelope-o"></span> <a href="mailto:e-learning@gmail.com" title="our mail" class="clr-white">e-learning@gmail.com</a>
-            </div>
+            <!--<h1 class="center clr-white section-heading">Contact Us</h1>
+            <div class="break-line bg-melanie bx-center"></div>-->
+            <div class="footer-content flex">
+                <div class="footer-contact-info">
+                    <h4>Contact us:</h4>
+                    <div class="contact-call">
+                        <a href="tel:+9722405555" title="our phone" class="clr-white"><span class="fa fa-phone"></span> +9722405555</a>
+                    </div>
+                    <div class="contact-mail">
+                        <a href="mailto:e-learning@gmail.com" title="our mail" class="clr-white"><span class="fa fa-envelope-o"></span> e-learning@gmail.com</a>
+                    </div>
+                </div>
+                <div class="footer-social-media">
+                    <h4>Keep in touch:</h4>
+                    <div><a href="" class="clr-white"><span class="fa fa-facebook-official"></span> facebook</a></div>
+                    <div><a href="" class="clr-white"><span class="fa fa-instagram"></span> instagram</a></div>
+                    <div><a href="" class="clr-white"><span class="fa fa-youtube-play"></span> youtube</a></div>
+                    <div><a href="" class="clr-white"><span class="fa fa-twitter"></span> twitter</a></div>
+                </div>
+                <div class="quick-links">
+                    <h4>Quick links:</h4>
+                    <div><a href="" class="clr-white">terms of policy</a></div>
+                    <div><a href="" class="clr-white">News</a></div>
+
+                </div>
             </div>
             <div class="copyright">
                 &copy; 2018 - website name

@@ -1,5 +1,5 @@
 #above-nav{
-    justify-content: space-around;
+    justify-content: space-evenly;
     height:3.3rem;
 
 }
@@ -9,8 +9,9 @@
 }
 
 .search{
-    flex-basis: 35%;
-    padding: 0.5rem 0 0.3rem;
+   flex-grow: 1;
+    margin-left: 2%;
+    padding: 0.35rem 0 0.3rem;
     color:white;
 }
 .search input{
@@ -24,30 +25,24 @@
     margin-right: 10%;
 }
 .login-register{
+    flex-grow: 1;
     padding: 0rem;
     text-align: right;
-    flex-basis: 25%;
+
 }
 .login-register>a{
     padding: 0.8rem 1rem 0 1rem;
     font-size: 1.4rem;
 }
 
-.social-media{
-    flex-basis: 25%;
-    text-align: center;
-}
-.social-media>a ,.login-register>a{
+
+.login-register>a{
     display: inline-block;
     border-right: thin solid white;
     height: 100%;
 }
-.social-media>a{
-    font-size: 2.2rem;
-    padding:0.5rem 1rem 0;
-}
 
-.social-media>a:first-child,.login-register>a:first-child{
+.login-register>a:first-child{
     border-left: thin solid white;
 }
 

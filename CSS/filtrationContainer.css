@@ -13,7 +13,7 @@
 .filtration-cards{
   /*  flex-basis: 78%;*/
     grid-template: repeat(3,auto)/repeat(3,29rem);
-    grid-gap: 2.5rem 1.5rem;
+    grid-gap: 4rem 1.5rem;
     justify-content: space-evenly;
     margin-left: 2%;
 }
