@@ -21,7 +21,7 @@ body{
     margin:0 0.2% 0.5rem;
     font-family: Arial,sans-serif;
 }
-h1,h2,h3,h4,h5,h6,ul,form,fieldset,input{
+h1,h2,h3,h4,h5,h6,ul,form,fieldset,input,figure{
     margin: 0;
     padding: 0;
 }
@@ -132,6 +132,9 @@ cite{
 
 .shadow{
     box-shadow: 0 0.3rem 0.5rem #666666;
+}
+.overflow-auto{
+    overflow: auto;
 }
 address{
     font-style: normal;

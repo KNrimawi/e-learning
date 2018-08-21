@@ -2,6 +2,7 @@
     width: 100%;
     padding: 1rem 1rem 1rem 1rem;
 
+
 }
 .card-content{
     position: relative;
@@ -25,18 +26,21 @@
     overflow: hidden;
 
 }
-.card-content .img>img{
+.card-content img{
     position: absolute;
     height: 100%;
     left:50%;
     transform: translateX(-50%);
 }
-.event .card-content .img{
-    border: 0;
-    height: 5rem;
-    width: 5rem;
-
+.event img{
+    position: absolute;
+    left:1rem;
+    top: 0rem;
+    width: 4rem;
+    height: 4rem;
+    transform: translateY(-25%);
 }
+
 .card-info>div>span,.card-info>div>address{
     font-size: 1.3rem;
 }
@@ -52,12 +56,9 @@
     padding: 0.5rem;
     height: 15rem;
     text-align: center;
-    background-color: beige;
-    border: thin solid gray;
+    border: thin solid hsl(0,0%,85%);
     border-radius: 0.5rem;
 }
-.google-map>iframe{
 
-}
 
 

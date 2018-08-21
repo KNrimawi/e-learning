@@ -37,7 +37,7 @@ footer{
     border-radius: 0.5rem;
 }
 .cards{
-    grid-template: auto/repeat(3,31rem);
+    grid-template: auto/repeat(4,29rem);
     grid-row-gap: 4rem;
     justify-content: space-evenly;
     margin-top: 3rem;
@@ -93,16 +93,28 @@ footer{
 footer a:hover{
     color:var(--emerald)!important;
 }
+@media screen and (max-width: 1220px) {
+    .cards{
+        grid-template: repeat(2,auto)/repeat(3,29rem);
+    }
+    .cards>div:last-child{
+        grid-column: 2/3;
+    }
+}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
     .cards{
         grid-template: repeat(2,auto)/repeat(2,29rem);
     }
 
+
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
     .cards{
         grid-template: repeat(3,auto)/29rem;
+    }
+    .cards>div:last-child{
+        grid-column: 1/2;
     }
     .news>img{
         float: none;
