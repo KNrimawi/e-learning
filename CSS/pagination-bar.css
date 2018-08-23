@@ -4,12 +4,16 @@
 }
 .pagination-bar{
     display: inline-block;
+    height: 5rem;
 }
 .pagination-bar a{
+    padding: 0 2.5rem;
+    display:block ;
+    line-height: 4.5rem;
     font-size: 1.5rem;
 }
 .pagination-bar>li{
-    padding: 1.5rem 2.5rem;
+    height: 100%;
     border:thin solid gray;
 
 }

@@ -21,29 +21,97 @@
     background: hsla(0,100%,100%,0.8) url("../images/search.png") 1rem no-repeat;
 
 }
-.email{
-    margin-right: 10%;
+.search input:focus{
+    background-color:hsla(0,100%,100%,1) ;
 }
+
 .login-register{
     flex-grow: 1;
-    padding: 0rem;
     text-align: right;
 
 }
 .login-register>a{
-    padding: 0.8rem 1rem 0 1rem;
-    font-size: 1.4rem;
-}
-
-
-.login-register>a{
     display: inline-block;
+    width: 6rem;
+    text-align: center;
+    line-height: 3.1rem;
     border-right: thin solid white;
+    font-size: 1.4rem;
     height: 100%;
 }
 
 .login-register>a:first-child{
     border-left: thin solid white;
+}
+.logged-in{
+    position: relative;
+    display: inline-block;
+    width: 6rem;
+    height: 100%;
+}
+.logged-in>a{
+    display: block;
+    height: 100%;
+    line-height: 3.1rem;
+    text-align: center;
+    border-left: thin solid white;
+}
+.logged-in>div{
+    display: none;
+    position: absolute;
+    top:100%;
+    width: 18rem;
+    right: 5%;
+    text-align: left;
+
+}
+.logged-in>div:after{
+    content: '';
+    position: absolute;
+    right: 5%;
+    top: -0.9rem;
+    width: 0;
+    height: 0;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1rem solid white;
+}
+
+.logged-in:hover>div{
+    display: block;
+    z-index: 99;
+
+}
+.logged-user-info{
+    padding: 0.5rem;
+
+
+}
+.logged-user-info .user-char{
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3rem;
+    margin-right: 1rem;
+
+}
+.logged-user-info>p{
+    font-size: 1rem;
+    margin-top:0.5rem;
+    color:gray;
+
+}
+
+.logged-user-content li>a{
+    display: block;
+    height: 100%;
+    padding: 1rem;
+}
+.logged-user-content li>a:hover{
+    background-color: var(--light-grey);
+
 }
 
 
