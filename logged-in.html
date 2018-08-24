@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="CSS/general.css">
         <link rel="stylesheet" href="CSS/above-nav.css">
         <link rel="stylesheet" href="CSS/bottom-nav.css">
+        <link rel="stylesheet" href="CSS/notifications.css">
+        <link rel="stylesheet" href="CSS/progress-bar.css">
         <link rel="stylesheet" href="CSS/main.css">
         <link rel="stylesheet" href="CSS/card.css">
         <link rel="stylesheet" href="CSS/course-library-card.css">
@@ -27,20 +29,57 @@
             </div>
 
             <ul class="login-register">
-                <li class="logged-in">
+                <li class="notifications">
+                    <a class="clr-white fa fa-bell"></a>
+                    <div class="bg-white">
+                        <div class="notification-item overflow-auto border-bottom-emerald">
+                            <div class="notification-img left">
+                                <img src="images/js.png" alt="">
+
+                            </div>
+                            <p class="clr-dark-grey">You didn't complete "JavaScript" Course</p>
+                            <div class="progress-bar">
+                                <div class="progress">
+
+                                </div>
+                            </div>
+                            <a href="#" class="clr-emerald">Complete</a>
+                        </div>
+                        <div class="notification-item overflow-auto border-bottom-emerald">
+                            <div class="notification-img left">
+                                <img src="images/Photoshop.jpg" alt="">
+
+                            </div>
+                            <p class="clr-dark-grey">You didn't complete "Photoshop" Course</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%">
+
+                                </div>
+                            </div>
+                            <a href="#" class="clr-emerald">Complete</a>
+                        </div>
+                        <div class="notification-item overflow-auto">
+                            <img src="images/calendar.png" alt="" class="right">
+                            <p class="clr-dark-grey">Celebrate the 6th anniversary of the website with us</p>
+                            <div class="event-info"><span>30th-August</span> - <address>Ramallah, Al-bireh, Experts training center</address></div>
+
+                        </div>
+
+                    </div>
+                </li><li
+                    class="logged-in">
                     <a class="clr-white fa fa-user"></a>
                     <div class="bg-white">
                         <div class="logged-user-info overflow-auto border-bottom-emerald">
                             <div class="user-char bg-dark-grey clr-white left">
                                 K
                             </div>
-                            <h6 class="clr-dark-grey">Khaled Rimawi</h6>
+                            <h5 class="clr-dark-grey">Khaled Rimawi</h5>
                             <p >khaledrimawi36@gmail.com</p>
                         </div>
                         <ul class="logged-user-content">
-                            <li><a href="#">My Courses (4)</a></li>
-                            <li><a href="#">My Library (2)</a></li>
-                            <li><a href="#">Profile</a></li>
+                            <li><a href="myCourses.html">My Courses (3)</a></li>
+                            <li><a href="myLibrary.html">My Library (2)</a></li>
                             <li><a href="main.html">Sign Out</a></li>
                         </ul>
 
@@ -51,7 +90,7 @@
         <nav id="bottom-nav" class="bg-light-grey">
 
             <ul class="flex right">
-                <li><a href="main.html" class="current-page">Home</a></li>
+                <li><a href="logged-in.html" class="current-page">Home</a></li>
                 <li><a href="AboutUs.html">About US</a></li>
                 <li><a href="courses.html">Courses</a></li>
                 <li><a href="Blogs.html">Blogs</a></li>

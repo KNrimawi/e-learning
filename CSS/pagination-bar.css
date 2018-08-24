@@ -11,10 +11,12 @@
     display:block ;
     line-height: 4.5rem;
     font-size: 1.5rem;
+    transition: color 0.2s;
 }
+
 .pagination-bar>li{
     height: 100%;
-    border:thin solid gray;
+    border:thin solid hsl(0,0%,90%);
 
 }
 .pagination-bar>li>a:hover{

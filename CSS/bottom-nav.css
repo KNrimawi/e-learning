@@ -8,7 +8,7 @@
 }
 #bottom-nav>ul>li{
     font-size: 1.6rem;
-    padding:1em;
+    height: 100%;
 }
 
 #bottom-nav>img{
@@ -16,8 +16,16 @@
     top:20%;
     left: 5%;
 }
+#bottom-nav>ul>li>a{
+    padding:1em;
+    display: block;
+    height: 100%;
+    transition: color 0.2s,border-bottom-color 0.2s;
+    border-bottom-color:var(--emerald) ;
+}
 #bottom-nav>ul>li>a:hover{
     color:var(--emerald);
+    border-bottom: medium solid var(--emerald);
 }
 .bar{
     display: none;
@@ -28,15 +36,16 @@
     height: 100%;
     padding: 0.5rem 0 0 0.5rem;
 }
-.bar>a:focus+ul{
-    opacity: 1;
+.bar:hover>ul{
+    display: block;
 }
 .bar ul{
     position: absolute;
-    opacity: 0;
+    display: none;
     width: 20rem;
     right: 0;
     top:100%;
+    z-index: 99;
 
 }
 .bar>ul>li{

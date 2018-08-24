@@ -1,15 +1,21 @@
 .awards{
     width:90%;
+    grid-template: repeat(3,auto)/repeat(3,1fr);
+    grid-gap: 1rem 2rem;
 }
 .award{
     margin-bottom: 1rem;
     margin-top:2rem;
     padding: 1rem;
     overflow: auto;
+    text-align: center;
 }
 .award img{
     max-width: 20rem;
     margin-right: 1%;
+}
+.award p{
+    text-align: left;
 }
 @media screen and (max-width: 700px){
     .award>img{
@@ -20,5 +26,15 @@
     .award>h2{
         text-align: center;
         margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 1000px){
+    .awards{
+        grid-template: repeat(4,auto)/repeat(2,1fr);
+    }
+}
+@media screen and (max-width: 650px){
+    .awards{
+        grid-template: repeat(5,auto)/1fr;
     }
 }

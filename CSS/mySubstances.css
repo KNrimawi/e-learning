@@ -1,0 +1,147 @@
+.mySubstances{
+    width: 60%;
+    border-radius: 1rem 1rem 0 0;
+    margin-top: 4rem;
+    min-width: 32rem;
+    margin-bottom: 2rem;
+}
+.mySubstances h1{
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0;
+}
+.mySubstances-content .course{
+    padding: 1rem;
+
+
+}
+.mySubstances-content .course>.info{
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 50%;
+    height: 15rem;
+    flex-grow:1 ;
+    position: relative;
+
+}
+.course .info .down{
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+.mySubstances-content .course p{
+    margin: 0;
+    margin-top: 0.8rem;
+    font-size: 1.4rem;
+    color:hsl(0,0%,70%)!important;
+}
+.mySubstances-content .course>figure{
+
+    flex-basis: 15rem;
+    height:15rem;
+    position: relative;
+    overflow: hidden;
+    background-color: hsl(0,0%,98%);
+    border:thin solid hsl(0,0%,85%);
+    border-radius: 0.5rem;
+    margin-right: 1%;
+}
+.mySubstances-content .course>figure>img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.progress-bar.different{
+
+    margin-left: 0;
+    height:1.2rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+.progress-bar.different,.progress-bar.different .progress{
+    border-radius: 0.5rem;
+}
+.progress-bar.different .progress{
+    font-size: 1rem;
+    line-height: 1.3rem;
+
+}
+.course .rating{
+    height: 100%;
+}
+.course .rating>span{
+    color: gray;
+    font-size: 1.4rem;
+}
+.view-share{
+   height: 100%;
+}
+.view-share>ul{
+    height: 100%;
+}
+.view-share>ul>li{
+    display: inline-block;
+    height: 100%;
+}
+.view-share>ul>li>button,.view-share>ul>li>a{
+    display: block;
+    height: 100%;
+    padding: 0 1rem;
+}
+.view-share>ul>li:first-child{
+    position: relative;
+}
+.view-share>ul>li:first-child:hover>ul{
+    display: block;
+}
+.view-share>ul>li:first-child>a:hover>span{
+
+    color: var(--emerald) !important;
+}
+.view-share>ul>li ul{
+    display: none;
+    position: absolute;
+    top:100%;
+    right: 0;
+    width: 15rem;
+    z-index: 99;
+}
+.view-share>ul>li ul:after{
+    content: '';
+    position: absolute;
+    border-width: 0 0.7rem 0.7rem 0.7rem;
+    border-color: transparent transparent var(--light-grey) transparent;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top:-0.7rem;
+    right: 2rem;
+
+}
+.view-share>ul>li ul a{
+    display: block;
+    padding: 0.5rem;
+    transition: color 0.2s, background-color 0.2s;
+}
+.view-share>ul>li ul a:hover{
+    color: white!important;
+    background-color: var(--emerald);
+}
+@media screen and (max-width: 680px) {
+
+    .mySubstances-content .course>.info{
+        justify-content: flex-start;
+    }
+    .down{
+        margin-top: 1rem;
+    }
+    .mySubstances-content .course{
+        padding-bottom: 3rem;
+    }
+    .mySubstances-content .course p{
+        font-size: 1.2rem;
+    }
+}
+
+

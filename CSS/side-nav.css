@@ -11,14 +11,19 @@
     border-style: solid;
     border-color: gray;
 }
+.side-nav>ul>li:last-child{
+    border:0;
+}
 .side-nav>ul>li>a{
     display: block;
     font-size: 1.1em;
     font-weight: bold;
     text-transform: capitalize;
     padding:1.5rem;
+    transition: background-color 0.2s, color 0.2s,padding-left 0.3s;
 }
 .side-nav>ul>li>a:hover{
     color:var(--emerald)!important;
     background-color: var(--light-grey);
+    padding-left: 2.5rem;
 }

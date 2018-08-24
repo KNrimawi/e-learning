@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="CSS/general.css">
+    <link rel="stylesheet" href="CSS/above-nav.css">
+    <link rel="stylesheet" href="CSS/bottom-nav.css">
+    <link rel="stylesheet" href="CSS/notifications.css">
+    <link rel="stylesheet" href="CSS/progress-bar.css">
+    <link rel="stylesheet" href="CSS/mySubstances.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav id="above-nav" class="flex bg-dark-grey">
+    <div class="search">
+        <form action="" method="post">
+            <input type="search" placeholder="Search ...">
+        </form>
+    </div>
+
+    <ul class="login-register">
+        <li class="notifications">
+            <a class="clr-white fa fa-bell"></a>
+            <div class="bg-white">
+                <div class="notification-item overflow-auto border-bottom-emerald">
+                    <div class="notification-img left">
+                        <img src="images/js.png" alt="">
+
+                    </div>
+                    <p class="clr-dark-grey">You didn't complete "JavaScript" Course</p>
+                    <div class="progress-bar">
+                        <div class="progress">
+
+                        </div>
+                    </div>
+                    <a href="#" class="clr-emerald">Complete</a>
+                </div>
+                <div class="notification-item overflow-auto border-bottom-emerald">
+                    <div class="notification-img left">
+                        <img src="images/Photoshop.jpg" alt="">
+
+                    </div>
+                    <p class="clr-dark-grey">You didn't complete "Photoshop" Course</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%">
+
+                        </div>
+                    </div>
+                    <a href="#" class="clr-emerald">Complete</a>
+                </div>
+                <div class="notification-item overflow-auto">
+                    <img src="images/calendar.png" alt="" class="right">
+                    <p class="clr-dark-grey">Celebrate the 6th anniversary of the website with us</p>
+                    <div class="event-info"><span>30th-August</span> - <address>Ramallah, Al-bireh, Experts training center</address></div>
+
+                </div>
+
+            </div>
+        </li><li
+            class="logged-in">
+        <a class="clr-white fa fa-user"></a>
+        <div class="bg-white">
+            <div class="logged-user-info overflow-auto border-bottom-emerald">
+                <div class="user-char bg-dark-grey clr-white left">
+                    K
+                </div>
+                <h5 class="clr-dark-grey">Khaled Rimawi</h5>
+                <p >khaledrimawi36@gmail.com</p>
+            </div>
+            <ul class="logged-user-content">
+                <li><a href="myCourses.html">My Courses (3)</a></li>
+                <li><a href="myLibrary.html">My Library (2)</a></li>
+                <li><a href="main.html">Sign Out</a></li>
+            </ul>
+
+        </div>
+    </li>
+    </ul>
+</nav>
+<nav id="bottom-nav" class="bg-light-grey">
+
+    <ul class="flex right">
+        <li><a href="logged-in.html">Home</a></li>
+        <li><a href="AboutUs.html">About US</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="Blogs.html">Blogs</a></li>
+        <li><a href="Library.html">Library</a></li>
+        <li><a href="Awards.html">Awards</a></li>
+        <li class="bar">
+            <a href="#" class="fa fa-bars"></a>
+            <ul class="bg-light-grey" style="z-index: 1">
+                <li><a href="main.html" class="current-page">Home</a></li>
+                <li><a href="AboutUs.html">About US</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="Blogs.html">Blogs</a></li>
+                <li><a href="Library.html">Library</a></li>
+                <li><a href="Awards.html">Awards</a></li>
+            </ul>
+        </li>
+    </ul>
+    <img src="images/computer%20(2).png" alt="">
+</nav>
+<div class="mySubstances bx-center bg-white shadow">
+    <h1 class="clr-white center bg-emerald">My Courses</h1>
+    <div class="mySubstances-content">
+        <div class="course flex border-bottom-emerald">
+            <figure>
+                <img src="images/js.png" alt="">
+            </figure>
+            <div class="info flex">
+                <div class="up">
+                    <h2 class="clr-dark-grey">JavaScript</h2>
+                    <p class="clr-emerald"> added on: 27th-July-2018</p>
+                    <div class="progress-bar different">
+                        <div class="progress center">
+                            57% completed
+                        </div>
+                    </div>
+                </div>
+                <div class="down flex">
+                    <div class="rating">
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <span>Rate</span>
+                    </div>
+                    <div class="view-share">
+                        <ul>
+                            <li><a href="#"><span class="fa fa-share-alt clr-dark-grey"></span> <span class="fa fa-angle-down clr-dark-grey"></span></a>
+                                 <ul class="bg-light-grey">
+                                     <li><a href="" class="clr-dark-grey"><span class="fa fa-facebook-official"></span> facebook</a></li>
+                                     <li><a href="" class="clr-dark-grey"><span class="fa fa-twitter"></span> twitter</a></li>
+                                 </ul>
+                            </li>
+                            <li><button class="btn bg-melanie clr-white">View</button></li>
+
+                        </ul>
+                    </div>
+                </div>
+             </div>
+         </div>
+        <div class="course flex border-bottom-emerald">
+            <figure>
+                <img src="images/Photoshop.jpg" alt="">
+            </figure>
+            <div class="info flex">
+                <div class="up">
+                    <h2 class="clr-dark-grey">Photoshop</h2>
+                    <p class="clr-emerald"> added on: 14th-May-2018</p>
+                    <div class="progress-bar different">
+                        <div class="progress center" style="width: 73%">
+                            73% completed
+                        </div>
+                    </div>
+                </div>
+                <div class="down flex">
+                    <div class="rating">
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <span>Rate</span>
+                    </div>
+                    <div class="view-share">
+                        <ul>
+                            <li><a><span class="fa fa-share-alt clr-dark-grey"></span> <span class="fa fa-angle-down clr-dark-grey"></span></a>
+                                <ul class="bg-light-grey">
+                                    <li><a href="" class="clr-dark-grey"><span class="fa fa-facebook-official"></span> facebook</a></li>
+                                    <li><a href="" class="clr-dark-grey"><span class="fa fa-twitter"></span> twitter</a></li>
+                                </ul>
+                            </li>
+                            <li><button class="btn bg-melanie clr-white">View</button></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="course flex">
+            <figure>
+                <img src="images/Matlab.png" alt="">
+            </figure>
+            <div class="info flex">
+                <div class="up">
+                    <h2 class="clr-dark-grey">MatLab</h2>
+                    <p class="clr-emerald"> added on: 10th-Jan-2017</p>
+                    <div class="progress-bar different">
+                        <div class="progress center" style="width: 100%;background-color: var(--emerald)">
+                            100% completed
+                        </div>
+                    </div>
+                </div>
+                <div class="down flex">
+                    <div class="rating">
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <a  class="fa fa-star-o clr-dark-grey"></a>
+                        <span>Rate</span>
+                    </div>
+                    <div class="view-share">
+                        <ul>
+                            <li><a href="#"><span class="fa fa-share-alt clr-dark-grey"></span> <span class="fa fa-angle-down clr-dark-grey"></span></a>
+                                <ul class="bg-light-grey">
+                                    <li><a href="" class="clr-dark-grey"><span class="fa fa-facebook-official"></span> facebook</a></li>
+                                    <li><a href="" class="clr-dark-grey"><span class="fa fa-twitter"></span> twitter</a></li>
+                                </ul>
+                            </li>
+                            <li><button class="btn bg-melanie clr-white">View</button></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

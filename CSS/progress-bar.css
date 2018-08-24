@@ -1,0 +1,14 @@
+.progress-bar{
+    width: 50%;
+    margin-left: calc(2% + 5rem);
+    margin-top: 1.5rem;
+    height:0.4rem;
+    background-color: var(--light-grey);
+}
+
+.progress{
+    width: 57%;
+    max-width: 100%;
+    background-color: var(--gold);
+    height: 100%;
+}

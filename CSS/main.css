@@ -93,6 +93,9 @@ section h1{
     max-width: 20rem;
     margin-right: 1%;
 }
+footer a{
+    transition: color 0.2s;
+}
 footer a:hover{
     color:var(--emerald)!important;
 }
