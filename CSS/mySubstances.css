@@ -52,21 +52,7 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.progress-bar.different{
 
-    margin-left: 0;
-    height:1.2rem;
-    margin-top: 1rem;
-    width: 100%;
-}
-.progress-bar.different,.progress-bar.different .progress{
-    border-radius: 0.5rem;
-}
-.progress-bar.different .progress{
-    font-size: 1rem;
-    line-height: 1.3rem;
-
-}
 .course .rating{
     height: 100%;
 }

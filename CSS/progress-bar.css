@@ -9,6 +9,25 @@
 .progress{
     width: 57%;
     max-width: 100%;
-    background-color: var(--gold);
     height: 100%;
+    overflow: hidden;
+}
+.progress-melanie{
+    background-image: repeating-linear-gradient(20deg,	hsl(40, 100%, 58%), hsl(40, 100%, 58%) 20%,var(--gold) 20%,var(--gold) 40%);
+}
+.progress-emerald{
+    background-image: repeating-linear-gradient(20deg,	hsl(151, 59%, 50%),hsl(151, 59%, 50%) 20%,hsl(151, 59%, 63%) 20%,hsl(151, 59%, 63%) 40%);
+}
+.progress-bar.different{
+    margin-left: 0;
+    height:1.2rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+.progress-bar.different,.progress-bar.different .progress{
+    border-radius: 0.5rem;
+}
+.progress-bar.different .progress{
+    font-size: 1rem;
+    line-height: 1.3rem;
 }
